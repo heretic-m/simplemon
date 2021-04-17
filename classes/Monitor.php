@@ -3,7 +3,7 @@
 require_once __DIR__ . '/HttpMonitor.php';
 require_once __DIR__ . '/MysqlMonitor.php';
 require_once __DIR__ . '/RedisMonitor.php';
-
+require_once __DIR__ . '/ShellMonitor.php';
 	
 abstract class Monitor
 {

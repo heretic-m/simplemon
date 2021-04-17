@@ -38,5 +38,11 @@
 				'expected_code' => 200,
 				'full_resp' => true
 			],
+			[
+				'type' => 'shell',
+				'exec' => 'cat /proc/mdstat',
+				'expected_string' => 'UU',
+				'full_resp' => true
+			],
 		]
 	];
